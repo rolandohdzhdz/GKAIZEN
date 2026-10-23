@@ -1,0 +1,41 @@
+{
+  "name": "Grafikaizen",
+  "short_name": "Grafikaizen",
+  "description": "Herramienta creativa para artistas de graffiti y tatuaje",
+  "start_url": "./grafikaizen.html",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0e0e10",
+  "theme_color": "#0e0e10",
+  "lang": "es",
+  "categories": ["art", "design", "utilities"],
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Board",
+      "short_name": "Board",
+      "description": "Abrir el lienzo principal",
+      "url": "./grafikaizen.html#board"
+    },
+    {
+      "name": "Separación de Colores",
+      "short_name": "Colores",
+      "description": "Separar colores de una imagen",
+      "url": "./grafikaizen.html#sepcolores"
+    }
+  ]
+}
